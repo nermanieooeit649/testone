@@ -9,7 +9,8 @@ import time
 # === Configuration ===
 API_KEY = '7576472064:AAG557fuTOucK71bV7Esbv-77CrRSGit1hw'
 ADMIN_ID = 5781612136  # Replace with your personal Telegram ID
-bot = telebot.TeleBot(7576472064:AAG557fuTOucK71bV7Esbv-77CrRSGit1hw)
+bot = telebot.TeleBot('7576472064:AAG557fuTOucK71bV7Esbv-77CrRSGit1hw')
+
 
 # === Order Storage ===
 ORDER_FILE = 'orders.json'
